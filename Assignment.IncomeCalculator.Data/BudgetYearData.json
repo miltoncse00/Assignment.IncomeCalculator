@@ -1,0 +1,77 @@
+[
+  {
+    "TaxYear": "2021-2022",
+    "Superannuation": 0.095,
+    "MedicareLevyRange": [
+      {
+        "MinValue": 0,
+        "MaxValue": 21335,
+        "BaseValue": 0,
+        "Levy": 0
+      },
+      {
+        "MinValue": 21336,
+        "MaxValue": 26668,
+        "BaseValue": 21335,
+        "Levy": 0.1
+      },
+      {
+        "MinValue": 26669,
+        "MaxValue": 79228162514264337593543950335,
+        "BaseValue": 0,
+        "Levy": 0.02
+      }
+    ],
+    "BudgetRepairLevyRange": [
+      {
+        "MinValue": 0,
+        "MaxValue": 180000,
+        "BaseValue": 0,
+        "Levy": 0
+      },
+      {
+        "MinValue": 180001,
+        "MaxValue": 79228162514264337593543950335,
+        "BaseValue": 180000,
+        "Levy": 0.02
+      }
+    ],
+    "IncomeTaxRange": [
+      {
+        "MinValue": 0,
+        "MaxValue": 18200,
+        "DefaultTax": 0,
+        "BaseValue": 0,
+        "ExcessPercentage": 0
+      },
+      {
+        "MinValue": 18201,
+        "MaxValue": 37000,
+        "DefaultTax": 0,
+        "BaseValue": 18200,
+        "ExcessPercentage": 0.19
+      },
+      {
+        "MinValue": 37001,
+        "MaxValue": 87000,
+        "DefaultTax": 3572,
+        "BaseValue": 37000,
+        "ExcessPercentage": 0.325
+      },
+      {
+        "MinValue": 87001,
+        "MaxValue": 180000,
+        "DefaultTax": 19822,
+        "BaseValue": 87000,
+        "ExcessPercentage": 0.37
+      },
+      {
+        "MinValue": 180001,
+        "MaxValue": 79228162514264337593543950335,
+        "DefaultTax": 54232,
+        "BaseValue": 180000,
+        "ExcessPercentage": 0.47
+      }
+    ]
+  }
+]

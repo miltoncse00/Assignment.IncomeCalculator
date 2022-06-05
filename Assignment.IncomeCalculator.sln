@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment.IncomeCalculator", "Assignment.IncomeCalculator\Assignment.IncomeCalculator.csproj", "{4CC38953-2E7D-4433-92E0-1EC4568C3C28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment.IncomeCalculator.Common", "Assignment.IncomeCalculator.Common\Assignment.IncomeCalculator.Common.csproj", "{23112A31-D20C-42E7-8508-6B12CE341920}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment.IncomeCalculator.Models", "Assignment.IncomeCalculator.Models\Assignment.IncomeCalculator.Models.csproj", "{EFB2A218-B20A-4242-9A53-B60307CD5AB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment.IncomeCalculator.Repository", "Assignment.IncomeCalculator.Repository\Assignment.IncomeCalculator.Repository.csproj", "{5BDD287C-7728-4DC0-87BD-5F2136A5B295}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Assignment.IncomeCalculator.Services", "Assignment.IncomeCalculator.Services\Assignment.IncomeCalculator.Services.csproj", "{5ED3919E-3A33-473A-8B84-F5D217D5B933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment.IncomeCalculator.XTests", "Assignment.IncomeCalculator.XTests\Assignment.IncomeCalculator.XTests.csproj", "{3745FCB8-C14E-4A8C-9F57-1C8338200DD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CC38953-2E7D-4433-92E0-1EC4568C3C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC38953-2E7D-4433-92E0-1EC4568C3C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC38953-2E7D-4433-92E0-1EC4568C3C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC38953-2E7D-4433-92E0-1EC4568C3C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23112A31-D20C-42E7-8508-6B12CE341920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23112A31-D20C-42E7-8508-6B12CE341920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23112A31-D20C-42E7-8508-6B12CE341920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23112A31-D20C-42E7-8508-6B12CE341920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB2A218-B20A-4242-9A53-B60307CD5AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB2A218-B20A-4242-9A53-B60307CD5AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB2A218-B20A-4242-9A53-B60307CD5AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB2A218-B20A-4242-9A53-B60307CD5AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDD287C-7728-4DC0-87BD-5F2136A5B295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDD287C-7728-4DC0-87BD-5F2136A5B295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDD287C-7728-4DC0-87BD-5F2136A5B295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDD287C-7728-4DC0-87BD-5F2136A5B295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED3919E-3A33-473A-8B84-F5D217D5B933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED3919E-3A33-473A-8B84-F5D217D5B933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED3919E-3A33-473A-8B84-F5D217D5B933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED3919E-3A33-473A-8B84-F5D217D5B933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3745FCB8-C14E-4A8C-9F57-1C8338200DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3745FCB8-C14E-4A8C-9F57-1C8338200DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3745FCB8-C14E-4A8C-9F57-1C8338200DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3745FCB8-C14E-4A8C-9F57-1C8338200DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D3B6952-F5C4-4F9B-A1F0-74AB4AA870C1}
+	EndGlobalSection
+EndGlobal
